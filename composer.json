@@ -6,6 +6,11 @@
         "phpunit/phpunit": "^6.4",
         "squizlabs/php_codesniffer": "^3.1"
     },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
     "license": "MIT",
     "authors": [
         {
