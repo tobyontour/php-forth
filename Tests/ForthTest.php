@@ -47,6 +47,12 @@ class ForthTest extends TestCase
             'ok',
             $forth->getOutput(),
             'Ok returned for no command'
+        );
+
+        $this->assertEquals(
+            0,
+            count($forth->getStack()),
+            'Stack is empty after empty command'
         );        
     } 
 }
