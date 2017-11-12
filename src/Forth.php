@@ -15,4 +15,9 @@ class Forth
     {
         return $this->output;
     }
+
+    public function getStack()
+    {
+        return [];
+    }
 }
